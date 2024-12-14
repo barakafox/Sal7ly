@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:sal7ly/Google_Maps/views/custom_google_map.dart';
 import 'package:sal7ly/Home_Page/map.dart';
 
 import 'Home_Page/first_page.dart';
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
       return  MaterialApp(
         debugShowCheckedModeBanner: false,
         title: 'Products',
-        home: LocationPage(),
-    );
+        home: CustomGoogleMap()
+      );
   }
 }
