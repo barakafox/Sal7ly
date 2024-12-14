@@ -33,7 +33,12 @@ dependencies:
   flutter_map:
 
 
-  mapbox_gl:
+  google_maps_flutter:
+  location:
+  http:
+  uuid:
+  flutter_polyline_points:
+
 
 
 
