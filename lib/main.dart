@@ -1,11 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:sal7ly/Google_Maps/views/custom_google_map.dart';
-import 'package:sal7ly/Home_Page/map.dart';
-
-import 'Home_Page/first_page.dart';
-import 'Home_Page/homepage.dart';
-import 'Reviews/review_page.dart';
 
 void main() {
   runApp(const MyApp());
