@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:sal7ly/Google_Maps/views/custom_google_map.dart';
 import 'package:sal7ly/Registeration/login.dart';
 import 'package:sal7ly/Home_Page/map.dart';
 
@@ -123,7 +124,7 @@ class SignUpPage extends StatelessWidget {
                       onTap: () {
                         Navigator.push(
                           context,
-                          MaterialPageRoute(builder: (context) => LocationPage()),
+                          MaterialPageRoute(builder: (context) => CustomGoogleMap()),
                         );
                       },
                     ),
